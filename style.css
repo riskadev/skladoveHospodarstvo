@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+form{
+    width: 20%;
+    min-width: 215px;
+    left: 10%;
+    position: absolute;
+    box-shadow: 0 0 7px rgb(162 158 158 / 38%);
+    top: 100px;
+    border-radius: 10px;
+}
+form h1{
+    text-align: center;
+}
+.in{
+    width: 80%;
+    min-width: 120px;
+    position: relative;
+    left: 4.5%;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.53); 
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.53);
+}
+.sub{
+    width: 35%;
+    position: relative;
+    left: 10%;
+    margin: 5px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding: 7px;
+    border: none;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.53); 
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.53);
+    cursor: pointer;
+}
+#vydaj{
+    background-color: wheat;
+}
+#prijem{
+    background-color: rgb(87, 57, 3);
+    color: white;
+}
+.listContainer{
+    min-width: 765px;
+    width: 40%;
+    height: 750px;
+    position: relative;
+    left: 35%;
+    top: 100px;
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(162 158 158 / 38%);
+}
+.list{
+    width: 90%;
+    height: 100%;
+    left: 5%;
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.firstRow p{
+    display: inline-block;
+    margin-right: 7%;
+}
+.row p{
+    position: absolute;
+}
+.row{
+    position: relative;
+    height: 50px;
+}
+.row:hover{
+    box-shadow: 0 0 7px rgb(162 158 158 / 38%);
+}
+.ID{
+   left: 8%; 
+}
+.ks{
+    left: 31%;
+}
+.cenaKs{
+    left: 52%;
+}
+.cenaCelkom{
+    left: 74%;
+}
+.err{
+    width: 100%;
+    background-color: rgba(224, 92, 3, 0.747);
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.sum{
+    position: absolute;
+    left: 3%;
+    padding-bottom: 20px;
+}
+hr{
+    border: 2px solid black;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+
+  background: #555; 
+}
+  
